@@ -62,13 +62,13 @@ public class CalculadoraTestes {
         //Cenário de teste 10: divisão de um número positivo e um zero;
         dividir = calc.dividir(3, 0);
         System.out.println(dividir);
-        //Neste cenário espera-se o valor "0" ou um valor desconhecido, pois não há solução para 3 / 0";
+        //Neste teste espera-se a exceção Infinity (número infinito);
         
         
         //Cenário de teste 11: divisão de dois zeros;
         dividir = calc.dividir(0, 0);
         System.out.println(dividir);
-        //Neste cenário espera-se o valor "0" ou um valor desconhecido, pois não há solução para 0 / 0";
+        //Neste teste espera-se a exceção NaN (Not a number, não é um número);
 
         
         //Cenário de teste 12: divisão de um número positivo e um número negativo;

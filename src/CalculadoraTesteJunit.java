@@ -16,6 +16,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		soma = calc.somar(3, 7);
 		assertEquals(10, soma);
+        //Neste teste espera-se o valor "10";
 	}
 	
 	@Test
@@ -24,6 +25,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		soma = calc.somar(3, 0);
 		assertEquals(3, soma);
+        //Neste teste espera-se o valor "3";
 	}
 	
 	@Test
@@ -32,6 +34,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		soma = calc.somar(0, 0);
 		assertEquals(0, soma);
+        //Neste teste espera-se o valor "0";
 	}
 	
 	@Test
@@ -40,6 +43,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		soma = calc.somar(3, -1);
 		assertEquals(2, soma);
+        //Neste teste espera-se o valor "2";
 	}
 	
 	@Test
@@ -48,6 +52,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		subtracao = calc.subtrair(3, 7);
 		assertEquals(-4, subtracao);
+        //Neste teste espera-se o valor "-4";
 	}
 	
 	@Test
@@ -56,6 +61,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		subtracao = calc.subtrair(3, 0);
 		assertEquals(3, subtracao);
+        //Neste teste espera-se o valor "3";
 	}
 	
 	@Test
@@ -64,6 +70,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		subtracao = calc.subtrair(0, 0);
 		assertEquals(0, subtracao);
+        //Neste teste espera-se o valor "0";
 	}
 	
 	@Test
@@ -72,6 +79,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		subtracao = calc.subtrair(3, -1);
 		assertEquals(4, subtracao);
+        //Neste teste espera-se o valor "4";
 	}
 	
 	@Test
@@ -80,6 +88,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		multiplicacao = calc.multiplicar(3, 7);
 		assertEquals(21, multiplicacao);
+        //Neste teste espera-se o valor "21";
 	}
 	
 	@Test
@@ -88,6 +97,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		multiplicacao = calc.multiplicar(3, 0);
 		assertEquals(0, multiplicacao);
+        //Neste teste espera-se o valor "0";
 	}
 	
 	@Test
@@ -96,6 +106,7 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		multiplicacao = calc.multiplicar(0, 0);
 		assertEquals(0, multiplicacao);
+        //Neste teste espera-se o valor "0";
 	}
 	
 	@Test
@@ -104,14 +115,16 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		multiplicacao = calc.multiplicar(3, -1);
 		assertEquals(-3, multiplicacao);
+        //Neste teste espera-se o valor "-3";
 	}
 	
 	@Test
 	public void divisaoDoisNumerosPositivos() {
 		//Teste da função "dividir" com dois números positivos;
 		Calculadora calc = new Calculadora();
-		divisao = calc.dividir(3, 7);
-		assertEquals(21, divisao);
+		divisao = calc.dividir(6, 4);
+		assertEquals(1.5, divisao);
+        //Neste teste espera-se o valor "1.5";
 	}
 	
 	@Test
@@ -119,7 +132,8 @@ public class CalculadoraTesteJunit {
 		//Teste da função "dividir" com um número positivo e um zero;
 		Calculadora calc = new Calculadora();
 		divisao = calc.dividir(3, 0);
-		assertEquals(0, divisao);
+		assertEquals(Float.POSITIVE_INFINITY, divisao);
+        //Neste teste espera-se a exceção Infinity (Número infinito);
 	}
 	
 	@Test
@@ -127,7 +141,8 @@ public class CalculadoraTesteJunit {
 		//Teste da função "dividir" com dois números zeros;
 		Calculadora calc = new Calculadora();
 		divisao = calc.dividir(0, 0);
-		assertEquals(0, divisao);
+		assertEquals(Float.NaN, divisao);
+        //Neste teste espera-se a exceção NaN (Not a number, não é um número);
 	}
 	
 	@Test
@@ -136,5 +151,6 @@ public class CalculadoraTesteJunit {
 		Calculadora calc = new Calculadora();
 		divisao = calc.dividir(3, -1);
 		assertEquals(-3, divisao);
+        //Neste teste espera-se o valor "-3";
 	}
 }
