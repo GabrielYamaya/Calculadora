@@ -2,6 +2,13 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
+/**
+*
+* @author Gabriel Yamaya
+* @version 1.1.1
+* @since Release 1.1.0 da aplicação
+*/
+
 //Cria a classe para testes usando o JUnit
 public class CalculadoraTesteJunit {
 	

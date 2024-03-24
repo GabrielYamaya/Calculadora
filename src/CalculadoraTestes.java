@@ -1,4 +1,9 @@
-
+/**
+ *
+ * @author Gabriel Yamaya
+ * @version 1.0.1
+ * @since Release 1.0.0 da aplicação
+ */
 public class CalculadoraTestes {
 
 	public static void main(String[] args) {
