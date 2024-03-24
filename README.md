@@ -22,9 +22,11 @@ Calculadora-de-teste;
   - Calculadora: possui as funções somar, subtrair, dividir e multiplicar, cada uma realizando sua respectiva função matemática com dois números inteiros.
   - CalculadoraTestes: a classe main do projeto, cria um objeto do tipo calculadora e realiza diversos cenários de testes com as funções da Calculadora.
 
-# Implantações: O projeto utiliza recursos padrão da IDE;
+# Implantações:
+ - O projeto utiliza recursos padrão da IDE;
 
-# Versionamento: 1.0.2;
+# Versionamento:
+ - 1.0.2;
 
 # Autor:
  - Nome: Gabriel Queiroz Pereira Yamaya;
