@@ -29,25 +29,25 @@ public class CalculadoraTestes {
         //Neste cenário espera-se o valor "2";
 
                 
-        //Cenário de teste 5: subttração de dois números positivos;
+        //Cenário de teste 5: subtração de dois números positivos;
         int subtracao = calc.subtrair(3, 7);
         System.out.println(subtracao);
         //Neste cenário espera-se o valor "-4";
 
         
-        //Cenário de teste 6: subttração de um número positivo e um zero;
+        //Cenário de teste 6: subtração de um número positivo e um zero;
         subtracao = calc.subtrair(3, 0);
         System.out.println(subtracao);
         //Neste cenário espera-se o valor "3";
 
         
-        //Cenário de teste 7: subttração de dois zeros;
+        //Cenário de teste 7: subtração de dois zeros;
         subtracao = calc.subtrair(0, 0);
         System.out.println(subtracao);
         //Neste cenário espera-se o valor "0";
 
         
-        //Cenário de teste 8: subttração de um número positivo e um número negativo;
+        //Cenário de teste 8: subtração de um número positivo e um número negativo;
         subtracao = calc.subtrair(3, -1);
         System.out.println(subtracao);
         //Neste cenário espera-se o valor "4";
@@ -62,13 +62,13 @@ public class CalculadoraTestes {
         //Cenário de teste 10: divisão de um número positivo e um zero;
         dividir = calc.dividir(3, 0);
         System.out.println(dividir);
-        //Neste cenário espera-se o valor "0" ou um valor desconhecido, pois não há solução para 3 / 0";
+        //Neste cenário espera-se a exceção Infinity (número infinito);
         
         
         //Cenário de teste 11: divisão de dois zeros;
         dividir = calc.dividir(0, 0);
         System.out.println(dividir);
-        //Neste cenário espera-se o valor "0" ou um valor desconhecido, pois não há solução para 0 / 0";
+        //Neste cenário espera-se a exceção NaN (not a number, não é um número);
 
         
         //Cenário de teste 12: divisão de um número positivo e um número negativo;
