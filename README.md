@@ -23,7 +23,7 @@ Calculadora-de-teste;
   - CalculadoraTestes: a classe main do projeto, cria um objeto do tipo calculadora e realiza diversos cenários de testes com as funções da Calculadora.
 
 # Implantações:
- - O projeto utiliza recursos padrão da IDE;
+ - O projeto pode ser utilizado em estudos básicos de teste unitário de software;
 
 # Versionamento:
  - 1.0.2;
