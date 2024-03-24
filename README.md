@@ -28,10 +28,10 @@ Calculadora-de-teste;
   - CalculadoraTestes: a classe main do projeto, cria um objeto do tipo calculadora e realiza diversos cenários de testes com as funções da Calculadora.
 
 # Implantações:
- - O projeto pode ser utilizado em estudos básicos de teste unitário de software;
+ - O projeto pode ser utilizado em estudos básicos de teste unitário de software e do framework JUnit ;
 
 # Versionamento:
- - 1.0.2;
+ - 1.1.1;
 
 # Autor:
  - Nome: Gabriel Queiroz Pereira Yamaya;
